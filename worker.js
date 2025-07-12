@@ -1,8 +1,11 @@
+import { getAssetFromKV } from '@cloudflare/kv-asset-handler';
+
 export default {
-  async fetch(request) {
-    const html = await fetch('https://raw.githubusercontent.com/KellenJCole/Portfolio-Website/main/index.html');
-    return new Response(await html.text(), {
-      headers: { 'Content-Type': 'text/html' },
-    });
+  async fetch(request, env, ctx) {
+    try {
+      return await getAssetFromKV({ request });
+    } catch (e) {
+      return new Response('Not found', { status: 404 });
+    }
   },
 };
