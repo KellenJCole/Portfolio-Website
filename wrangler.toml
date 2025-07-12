@@ -1,0 +1,7 @@
+name = "dev-portfolio"
+type = "javascript"
+
+account_id = "f4da994da9b93d41a8d61e79d18f025a"
+compatibility_date = "2025-07-12"
+workers_dev = true
+main = "worker.js"
