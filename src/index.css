@@ -1,5 +1,21 @@
+@font-face {
+    font-family: Caveat;
+    src: url(../src/assets/fonts/Caveat-Regular.ttf);
+}
+
 @import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@theme {
+    --font-caveat: Caveat, "sans-serif";
+    --color-timberwolf: #DDD1C7;
+    --color-ashgray: #C2CFB2;
+    --color-olivine: #8DB580;
+    --color-battleshipgray: #7E8987;
+    --color-englishviolet: #4B4A67;
+}
