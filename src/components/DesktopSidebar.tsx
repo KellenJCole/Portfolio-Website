@@ -6,7 +6,7 @@ export default function DesktopSidebar() {
 
   return (
     <div className="hidden md:block fixed top-[20%] right-[5%] h-screen z-60">
-      <nav className="flex flex-col justify-around items-center py-2 font-mono md:text-2xl lg:text-3xl">
+      <nav className="flex flex-col justify-around items-center py-2 font-mono md:text-2xl lg:text-3xl dark:text-gray-300">
         {ids.map((id) => (
           <Link
             key={id}

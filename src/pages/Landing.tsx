@@ -14,7 +14,7 @@ export default function Landing() {
         className="
             sticky top-0
             flex items-center justify-center
-            bg-timberwolf dark:bg-gray-900
+            bg-timberwolf dark:bg-dark-1
             z-10
           "
         style={{ height: `calc(100vh - ${headerHeight}px)` }}
@@ -33,12 +33,14 @@ export default function Landing() {
         className="
             sticky top-0
             h-screen
-            bg-ashgray dark:bg-gray-900
+            bg-ashgray dark:bg-dark-2
             z-20
           "
       >
         <div className="pt-16 text-center">
-          <h2 className="text-2xl md:text-4xl font-semibold mb-4">About Me</h2>
+          <h2 className="text-2xl md:text-4xl font-semibold mb-4 dark:text-gray-300">
+            About Me
+          </h2>
           {/* …about content… */}
         </div>
       </section>
@@ -53,12 +55,14 @@ export default function Landing() {
         className="
             sticky top-0
             h-screen
-            bg-olivine dark:bg-gray-900
+            bg-olivine dark:bg-dark-3
             z-30
           "
       >
         <div className="pt-16 text-center">
-          <h2 className="text-2xl md:text-4xl font-semibold mb-4">Projects</h2>
+          <h2 className="text-2xl md:text-4xl font-semibold mb-4 dark:text-gray-300">
+            Projects
+          </h2>
           {/* …projects content… */}
         </div>
       </section>
@@ -73,12 +77,12 @@ export default function Landing() {
         className="
             sticky top-0
             h-screen
-            bg-battleshipgray dark:bg-gray-900
+            bg-battleshipgray dark:bg-dark-4
             z-40
           "
       >
         <div className="pt-16 text-center">
-          <h2 className="text-2xl md:text-4xl font-semibold mb-4">
+          <h2 className="text-2xl md:text-4xl font-semibold mb-4 dark:text-gray-300">
             Resume & Skills
           </h2>
           {/* …resume content… */}
@@ -95,12 +99,14 @@ export default function Landing() {
         className="
             sticky top-0
             h-screen
-            bg-englishviolet dark:bg-gray-900
+            bg-englishviolet dark:bg-dark-5
             z-50
           "
       >
         <div className="pt-16 text-center">
-          <h2 className="text-2xl md:text-4xl font-semibold mb-4">Contact</h2>
+          <h2 className="text-2xl md:text-4xl font-semibold mb-4 dark:text-gray-300">
+            Contact
+          </h2>
           {/* …contact content… */}
         </div>
       </section>

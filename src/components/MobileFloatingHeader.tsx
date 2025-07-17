@@ -11,9 +11,9 @@ export default function MobileFloatingHeader({
   return (
     <div
       ref={headerRef}
-      className="sticky top-0 z-60 bg-white dark:bg-gray-800 shadow-lg md:hidden"
+      className="sticky top-0 z-60 bg-white dark:bg-stone-950 shadow-lg md:hidden"
     >
-      <nav className="flex justify-around items-center py-2 text-sm">
+      <nav className="flex justify-around items-center py-2 text-sm dark:text-stone-300 text-xl">
         {['about', 'projects', 'resume', 'contact'].map((id) => (
           <Link
             key={id}

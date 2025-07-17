@@ -2,7 +2,7 @@ import { Typewriter } from 'react-simple-typewriter';
 
 export default function IntroTypeWriter() {
   return (
-    <h3 className="font-mono text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
+    <h3 className="font-mono text-2xl sm:text-3xl md:text-4xl lg:text-5xl dark:text-gray-300">
       Welcome, I'm
       <br />
       <span className="block font-caveat text-5xl sm:text-6xl md:text-8xl mb-1">
