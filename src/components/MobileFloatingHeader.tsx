@@ -13,7 +13,7 @@ export default function MobileFloatingHeader({
       ref={headerRef}
       className="sticky top-0 z-60 bg-white dark:bg-stone-950 shadow-lg md:hidden"
     >
-      <nav className="flex justify-around items-center py-2 text-sm dark:text-stone-300 text-xl">
+      <nav className="flex justify-around items-center py-2 text-sm dark:text-stone-300 text-xl text-shadow-sm dark:text-shadow-red-900">
         {['about', 'projects', 'resume', 'contact'].map((id) => (
           <Link
             key={id}
